@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    background-color: aqua !important;
+    color: red;
+}
+
+.bar2 {
+    background-color: lightgreen !important;
+    color: blue;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.cut {
+    background-color: black !important;
+    color: white;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.cut1 {
+    background-color: bisque;
+    color: black;
+}
+
+.card {
+    background-color: black !important;
+    color: burlywood;
+}
+.loot{color: red;}
+.loot1{color: #00FF00;}
+.loot2{color: yellow;}
+
+body {
+    width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #7CFC00, #00FF00, #EE7752, #E73C7E, #23A6D5, #23D5AB, #FFFF00);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+    }
+    
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+    }
+    
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%
+        }
+        50% {
+            background-position: 100% 50%
+        }
+        100% {
+            background-position: 0% 50%
+        }
+}
